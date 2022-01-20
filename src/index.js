@@ -2,11 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Map from './Map';
 import reportWebVitals from './reportWebVitals';
+import SearchPlace from './SearchPlace';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Map />
+    <SearchPlace />
   </React.StrictMode>,
   document.getElementById('root')
 );
